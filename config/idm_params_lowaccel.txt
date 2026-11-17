@@ -1,0 +1,10 @@
+# Alternative, low-acceleration / short-gap parameter set. NOT a calibrated set:
+# used only as a contrast in the sensitivity analysis (last row of the IDM
+# sensitivity table) to show that a markedly different acceleration capability
+# does change the network results.
+a=0.375481599048
+b=4.804760066
+v0=5.489523468
+s0=1.160702055528
+T=0.70023604
+cap=5.364474

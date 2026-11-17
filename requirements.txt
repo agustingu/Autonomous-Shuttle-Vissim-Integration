@@ -1,0 +1,8 @@
+# simulation (Windows only, PTV Vissim installed and licensed; COM is part of the base license)
+pywin32>=306
+# extraction, statistics and figures
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7

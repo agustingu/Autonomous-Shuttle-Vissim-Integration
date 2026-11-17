@@ -1,0 +1,61 @@
+{
+  "_comment": "Archer Road (Gainesville, FL) example. Copy this file, edit the values for your network and point AS_CONFIG at it. Keys are explained in docs/network_setup.md.",
+
+  "network_file": "../network/Trapezium_batch.inpx",
+  "output_root": "batch_results",
+  "sensitivity_output_root": "sensitivity_results",
+  "tables_dir": "tables",
+  "figures_dir": "figures",
+
+  "sim_period_s": 3600,
+  "step_s": 0.2,
+  "seeds": [42, 43, 44, 45, 46],
+
+  "shuttle": {
+    "vehicle_type": 630,
+    "vehicle_class": 90,
+    "speed_distribution": 1049,
+    "idm_params_file": "idm_params_published.txt",
+    "alternative_params_file": "idm_params_lowaccel.txt",
+    "lookahead_m": 250
+  },
+  "bus": {
+    "vehicle_type": 300,
+    "speed_distribution": 1047
+  },
+  "transit_composition": 2,
+  "transit_vehicles_per_hour": 20,
+  "node_class_codes": {"bus": "30", "shuttle": "90"},
+
+  "demand_scenarios": {
+    "SC-1": {"inputs": {"1": 613,  "3": 201, "4": 5, "5": 184, "8": 112, "9": 0}, "total_vph": 1115},
+    "SC-2": {"inputs": {"1": 708,  "3": 231, "4": 6, "5": 213, "8": 129, "9": 0}, "total_vph": 1287},
+    "SC-3": {"inputs": {"1": 802,  "3": 262, "4": 6, "5": 241, "8": 146, "9": 0}, "total_vph": 1457},
+    "SC-4": {"inputs": {"1": 943,  "3": 308, "4": 7, "5": 283, "8": 171, "9": 0}, "total_vph": 1712},
+    "SC-5": {"inputs": {"1": 1094, "3": 357, "4": 8, "5": 329, "8": 199, "9": 0}, "total_vph": 1987},
+    "SC-6": {"inputs": {"1": 1286, "3": 419, "4": 9, "5": 386, "8": 233, "9": 0}, "total_vph": 2333}
+  },
+
+  "compositions": {
+    "00AS_20Bus": {"as_share": 0.00, "label": "0/20",  "n_shuttles": 0,  "marker": "o"},
+    "05AS_15Bus": {"as_share": 0.25, "label": "5/15",  "n_shuttles": 5,  "marker": "v"},
+    "10AS_10Bus": {"as_share": 0.50, "label": "10/10", "n_shuttles": 10, "marker": "p"},
+    "15AS_05Bus": {"as_share": 0.75, "label": "15/5",  "n_shuttles": 15, "marker": "*"},
+    "20AS_00Bus": {"as_share": 1.00, "label": "20/0",  "n_shuttles": 20, "marker": "+"}
+  },
+
+  "sensitivity": {
+    "scenarios": ["SC-2", "SC-5"],
+    "idm_parameters": ["a", "T", "s0", "b"],
+    "idm_factors": [0.75, 1.25],
+    "mainline_routing_decisions": [14, 2, 4, 3],
+    "turn_factors": [0.5, 1.5],
+    "driving_behavior": 1,
+    "lane_change_variants": {
+      "lc_safdist_0.4": {"label": "Safety distance factor 0.4", "attributes": {"SafDistFactLnChg": 0.4}},
+      "lc_safdist_0.8": {"label": "Safety distance factor 0.8", "attributes": {"SafDistFactLnChg": 0.8}},
+      "lc_coop_on":     {"label": "Cooperative lane change on", "attributes": {"CoopLnChg": true}},
+      "lc_decel_mild":  {"label": "Max. deceleration $-3/-2$ m/s$^2$", "attributes": {"MaxDecelOwn": -3.0, "MaxDecelTrail": -2.0}}
+    }
+  }
+}

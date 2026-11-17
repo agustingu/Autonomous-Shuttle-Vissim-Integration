@@ -1,0 +1,341 @@
+family,variant,scenario,comparison,metric,ref_mean,mean_diff,ci_lo,ci_hi,n,pct
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,node_delay_all,22.47199514057261,1.4650418517992947,0.7066433006664654,2.223440402932124,5,6.51941157264759
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,node_stops_all,0.6517120891205413,0.05561793532008099,0.023107903287345348,0.08812796735281664,5,8.534126687006083
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,link_speed_all,31.846701585708253,-0.9905400783087636,-1.2174558220111773,-0.7636243346063499,5,-3.110338053826225
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,lc_per_vehkm,0.7262739295716845,0.24180599732409602,0.15899200811091085,0.3246199865372812,5,33.29404890888753
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,trapped_veh_count,0.0,364.0,225.30274104351506,502.6972589564849,5,
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.17450398366442837,0.11183097109494591,0.23717699623391084,5,
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,reference (main batch),SC-2,AS effect 20/0 - 0/20,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,node_delay_all,31.2989879014159,3.437256998064168,1.986989334867346,4.88752466126099,5,10.982006858786235
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,node_stops_all,0.8355895049919078,0.11233265341746032,0.05392287488198439,0.17074243195293626,5,13.44352133988904
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,link_speed_all,30.81599384384551,-0.9291147069434438,-1.3238494615212242,-0.5343799523656634,5,-3.015040539180936
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,lc_per_vehkm,0.7850454888876459,0.2301189739503117,0.1518018239683078,0.30843612393231556,5,29.312820366164267
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,trapped_veh_count,0.0,612.2,413.45539570310126,810.9446042968989,5,
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.19854145790685984,0.13919206696445138,0.2578908488492683,5,
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,reference (main batch),SC-5,AS effect 20/0 - 0/20,n_vehicles,1988.6,-1.6,-4.954791384926661,1.7547913849266616,5,-0.08045861410037213
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,node_delay_all,22.47199514057261,1.4650418517992947,0.7066433006664654,2.223440402932124,5,6.51941157264759
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,node_stops_all,0.6517120891205413,0.05561793532008099,0.023107903287345348,0.08812796735281664,5,8.534126687006083
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,link_speed_all,31.846701585708253,-0.9905400783087636,-1.2174558220111773,-0.7636243346063499,5,-3.110338053826225
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,lc_per_vehkm,0.7262739295716845,0.24180599732409602,0.15899200811091085,0.3246199865372812,5,33.29404890888753
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,trapped_veh_count,0.0,364.0,225.30274104351506,502.6972589564849,5,
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.17450398366442837,0.11183097109494591,0.23717699623391084,5,
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,lc_coop_on,SC-2,AS effect 20/0 - 0/20,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,node_delay_all,31.2989879014159,3.437256998064168,1.986989334867346,4.88752466126099,5,10.982006858786235
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,node_stops_all,0.8355895049919078,0.11233265341746032,0.05392287488198439,0.17074243195293626,5,13.44352133988904
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,link_speed_all,30.81599384384551,-0.9291147069434438,-1.3238494615212242,-0.5343799523656634,5,-3.015040539180936
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,lc_per_vehkm,0.7850454888876459,0.2301189739503117,0.1518018239683078,0.30843612393231556,5,29.312820366164267
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,trapped_veh_count,0.0,612.2,413.45539570310126,810.9446042968989,5,
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.19854145790685984,0.13919206696445138,0.2578908488492683,5,
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,lc_coop_on,SC-5,AS effect 20/0 - 0/20,n_vehicles,1988.6,-1.6,-4.954791384926661,1.7547913849266616,5,-0.08045861410037213
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,node_delay_all,1.4650418517992947,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,node_stops_all,0.05561793532008099,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,link_speed_all,-0.9905400783087636,0.0,0.0,0.0,5,-0.0
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,lc_per_vehkm,0.24180599732409602,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,trapped_veh_count,364.0,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,lc_share_near_AS,0.17450398366442837,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_coop_on,SC-2,AS effect: variant - reference,n_vehicles,0.0,0.0,0.0,0.0,5,
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,node_delay_all,3.437256998064168,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,node_stops_all,0.11233265341746032,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,link_speed_all,-0.9291147069434438,0.0,0.0,0.0,5,-0.0
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,lc_per_vehkm,0.2301189739503117,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,trapped_veh_count,612.2,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,lc_share_near_AS,0.19854145790685984,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_coop_on,SC-5,AS effect: variant - reference,n_vehicles,-1.6,0.0,0.0,0.0,5,-0.0
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,node_delay_all,22.47199514057261,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,node_stops_all,0.6517120891205413,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,link_speed_all,31.846701585708253,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,lc_per_vehkm,0.7262739295716845,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,trapped_veh_count,0.0,0.0,0.0,0.0,5,
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,lc_share_near_AS,0.0,0.0,0.0,0.0,5,
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_coop_on,SC-2,baseline shift 0/20: variant - reference,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,node_delay_all,31.2989879014159,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,node_stops_all,0.8355895049919078,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,link_speed_all,30.81599384384551,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,lc_per_vehkm,0.7850454888876459,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,trapped_veh_count,0.0,0.0,0.0,0.0,5,
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,lc_share_near_AS,0.0,0.0,0.0,0.0,5,
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_coop_on,SC-5,baseline shift 0/20: variant - reference,n_vehicles,1988.6,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,node_delay_all,23.937036992371908,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,node_stops_all,0.7073300244406223,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,link_speed_all,30.856161507399484,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,lc_per_vehkm,0.9680799268957806,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,node_delay_shuttle,29.094883246305574,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,as_travel_time_mean_s,326.7614206712433,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,trapped_veh_count,364.0,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,lc_share_near_AS,0.17450398366442837,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,gap_behind_AS_mean,37.04053196363062,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-2,shift 20/0: variant - reference,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,node_delay_all,34.73624489948007,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,node_stops_all,0.9479221584093679,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,link_speed_all,29.886879136902074,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,lc_per_vehkm,1.0151644628379575,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,node_delay_shuttle,35.114388073247774,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,as_travel_time_mean_s,391.28776942355887,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,trapped_veh_count,612.2,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,lc_share_near_AS,0.19854145790685984,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,gap_behind_AS_mean,24.043444906199756,0.0,0.0,0.0,5,0.0
+lanechange,lc_coop_on,SC-5,shift 20/0: variant - reference,n_vehicles,1987.0,0.0,0.0,0.0,5,0.0
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,node_delay_all,22.477390139274,1.619696423477685,0.7234349274477966,2.5159579195075734,5,7.205891847059427
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,node_stops_all,0.6533008832964099,0.060021057158249035,0.026490739857318563,0.0935513744591795,5,9.18735282514792
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,link_speed_all,31.83908272894048,-0.9459893769654855,-1.4400346324009186,-0.45194412153005237,5,-2.9711577592203
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,lc_per_vehkm,0.720630014873419,0.24442651721634134,0.1589959875004237,0.329857046932259,5,33.918448048444894
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,trapped_veh_count,0.0,366.6,229.660165627263,503.539834372737,5,
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.17385770064737666,0.10845815076220923,0.2392572505325441,5,
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,lc_decel_mild,SC-2,AS effect 20/0 - 0/20,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,node_delay_all,31.418583962159232,3.611038919982756,1.4909572354988097,5.731120604466702,5,11.493321673350769
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,node_stops_all,0.8453062375573669,0.12051521871410124,0.04059097780056814,0.20043945962763435,5,14.256989166712785
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,link_speed_all,30.376963782640626,-0.4664739089381854,-1.559464686959032,0.6265168690826611,5,-1.5356172930118808
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,lc_per_vehkm,0.7941289761335325,0.2330283299299137,0.16517517835130477,0.3008814815085227,5,29.343889586359843
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,trapped_veh_count,0.0,637.6,485.63787729595845,789.5621227040416,5,
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.20174501462392982,0.15390247422499587,0.24958755502286378,5,
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,lc_decel_mild,SC-5,AS effect 20/0 - 0/20,n_vehicles,1988.2,-0.4,-3.120349522633028,2.320349522633028,5,-0.020118700331958554
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,node_delay_all,1.4650418517992947,0.15465457167839033,0.011748383781521349,0.2975607595752593,5,10.556324482365534
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,node_stops_all,0.05561793532008099,0.004403121838168045,0.0015128107260075066,0.007293432950328583,5,7.9167301210088015
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,link_speed_all,-0.9905400783087636,0.04455070134327812,-0.23658253014734762,0.32568393283390384,5,-4.497617241226974
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,lc_per_vehkm,0.24180599732409602,0.002620519892245321,-0.005190255242824203,0.010431295027314845,5,1.0837282454715136
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,trapped_veh_count,364.0,2.6,-3.645458826716792,8.845458826716792,5,0.7142857142857143
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,lc_share_near_AS,0.17450398366442837,-0.0006462830170517325,-0.005671908934882096,0.004379342900778631,5,-0.37035430566131744
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_decel_mild,SC-2,AS effect: variant - reference,n_vehicles,0.0,0.0,0.0,0.0,5,
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,node_delay_all,3.437256998064168,0.17378192191858802,-0.6333190008713199,0.9808828447084958,5,5.055831496348991
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,node_stops_all,0.11233265341746032,0.00818256529664092,-0.014604365080890896,0.030969495674172735,5,7.284226845628013
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,link_speed_all,-0.9291147069434438,0.46264079800525837,-0.4343935412834685,1.3596751372939853,5,-49.7937224056254
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,lc_per_vehkm,0.2301189739503117,0.0029093559796020017,-0.021204921596716254,0.02702363355592026,5,1.2642833963922517
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,trapped_veh_count,612.2,25.4,-40.971557582123715,91.7715575821237,5,4.148970924534465
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,lc_share_near_AS,0.19854145790685984,0.003203556717069983,-0.01803369193553276,0.024440805369672726,5,1.6135454785331746
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_decel_mild,SC-5,AS effect: variant - reference,n_vehicles,-1.6,1.2,-1.7644321650666204,4.1644321650666205,5,-75.0
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,node_delay_all,22.47199514057261,0.005394998701391529,-0.03421994944176413,0.045009946844547184,5,0.024007653382102232
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,node_stops_all,0.6517120891205413,0.0015887941758685243,-0.00015287104428267687,0.0033304593960197257,5,0.24378774038280257
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,link_speed_all,31.846701585708253,-0.007618856767768989,-0.03771088707089842,0.022473173535360443,5,-0.02392353489815749
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,lc_per_vehkm,0.7262739295716845,-0.005643914698265418,-0.012144929266124036,0.0008570998695932013,5,-0.7771055064022305
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,trapped_veh_count,0.0,0.0,0.0,0.0,5,
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,lc_share_near_AS,0.0,0.0,0.0,0.0,5,
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_decel_mild,SC-2,baseline shift 0/20: variant - reference,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,node_delay_all,31.2989879014159,0.11959606074333493,-0.1176384973266637,0.35683061881333356,5,0.38210839634825594
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,node_stops_all,0.8355895049919078,0.009716732565459175,-0.007944504664436323,0.027377969795354673,5,1.1628595748762158
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,link_speed_all,30.81599384384551,-0.4390300612048897,-1.6510957087967264,0.7730355863869471,5,-1.4246824666100184
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,lc_per_vehkm,0.7850454888876459,0.009083487245886656,-0.01035667123398475,0.02852364572575806,5,1.1570650840573986
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,trapped_veh_count,0.0,0.0,0.0,0.0,5,
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,lc_share_near_AS,0.0,0.0,0.0,0.0,5,
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_decel_mild,SC-5,baseline shift 0/20: variant - reference,n_vehicles,1988.6,-0.4,-1.5105780420791195,0.7105780420791196,5,-0.02011465352509303
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,node_delay_all,23.937036992371908,0.16004957037978187,-0.010674381453143172,0.33077352221270695,5,0.6686273260587156
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,node_stops_all,0.7073300244406223,0.005991916014036569,0.0016590704204285439,0.010324761607644593,5,0.8471174426357986
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,link_speed_all,30.856161507399484,0.03693184457550913,-0.24656969808757828,0.32043338723859655,5,0.11969033985854871
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,lc_per_vehkm,0.9680799268957806,-0.0030233948060200966,-0.01532384303019777,0.009277053418157577,5,-0.3123083871509281
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,node_delay_shuttle,29.094883246305574,-0.38757072940569304,-1.2532573875988833,0.4781159287874971,5,-1.332092403068523
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,as_travel_time_mean_s,326.7614206712433,-6.947139588100674,-22.812374562050408,8.91809538584906,5,-2.12605869255607
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,trapped_veh_count,364.0,2.6,-3.645458826716792,8.845458826716792,5,0.7142857142857143
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,lc_share_near_AS,0.17450398366442837,-0.0006462830170517325,-0.005671908934882096,0.004379342900778631,5,-0.37035430566131744
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,gap_behind_AS_mean,37.04053196363062,0.952093830736765,-0.3555037680042976,2.2596914294778276,5,2.570410791269433
+lanechange,lc_decel_mild,SC-2,shift 20/0: variant - reference,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,node_delay_all,34.73624489948007,0.29337798266192294,-0.6468680034725742,1.2336239687964201,5,0.8445875007816812
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,node_stops_all,0.9479221584093679,0.017899297862100094,-0.015049655522675433,0.05084825124687562,5,1.8882666370132617
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,link_speed_all,29.886879136902074,0.02361073680036867,-0.34410117211350055,0.3913226457142379,5,0.07900034223116961
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,lc_per_vehkm,1.0151644628379575,0.011992843225488659,-0.023818807250425976,0.04780449370140329,5,1.1813694888374928
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,node_delay_shuttle,35.114388073247774,0.35432796319857973,-4.48665242532572,5.19530835172288,5,1.0090677429988528
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,as_travel_time_mean_s,391.28776942355887,27.324943229285328,-56.920145777893055,111.5700322364637,5,6.983336910719227
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,trapped_veh_count,612.2,25.4,-40.971557582123715,91.7715575821237,5,4.148970924534465
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,lc_share_near_AS,0.19854145790685984,0.003203556717069983,-0.01803369193553276,0.024440805369672726,5,1.6135454785331746
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,gap_behind_AS_mean,24.043444906199756,-0.628865295315429,-2.2356655074663543,0.9779349168354965,5,-2.615537406427446
+lanechange,lc_decel_mild,SC-5,shift 20/0: variant - reference,n_vehicles,1987.0,0.8,-1.5883883880999845,3.188388388099985,5,0.04026170105686965
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,node_delay_all,22.393724135598905,1.8177841961101648,0.36439193280300164,3.271176459417328,5,8.117382285782764
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,node_stops_all,0.6467929237451804,0.06960086691286656,0.012610124590765867,0.12659160923496726,5,10.760919663414175
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,link_speed_all,31.808695680829082,-0.987754510923164,-1.3336533670238564,-0.6418556548224716,5,-3.105297120115736
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,lc_per_vehkm,0.7511323334736568,0.2585409519159162,0.15515099063912252,0.36193091319270987,5,34.42016012282123
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,trapped_veh_count,0.0,352.8,227.29546771677616,478.30453228322386,5,
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.1784334492643262,0.11185981359409652,0.24500708493455586,5,
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,AS effect 20/0 - 0/20,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,node_delay_all,31.187934077257143,3.9868451495319066,2.3732694556227725,5.600420843441041,5,12.783293499517793
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,node_stops_all,0.8277371497157968,0.1370412375911711,0.09132963236098107,0.18275284282136112,5,16.556129882321237
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,link_speed_all,30.798211520615997,-0.7615946752806181,-1.0779586882080785,-0.4452306623531577,5,-2.4728535771332525
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,lc_per_vehkm,0.8118156434590775,0.24028077746962637,0.1707882118790583,0.30977334306019444,5,29.5979486729044
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,trapped_veh_count,0.0,593.4,452.6295784538064,734.1704215461936,5,
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.19518039113065433,0.14532983864244298,0.24503094361886568,5,
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,AS effect 20/0 - 0/20,n_vehicles,1989.0,-1.6,-4.320349522633029,1.120349522633028,5,-0.08044243338360986
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,node_delay_all,1.4650418517992947,0.35274234431087026,-0.7221243146790622,1.4276090033008026,5,24.077287886188977
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,node_stops_all,0.05561793532008099,0.013982931592785564,-0.019865519047546566,0.0478313822331177,5,25.14104759968857
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,link_speed_all,-0.9905400783087636,0.002785567385599563,-0.23823763309942106,0.2438087678706202,5,-0.2812170296385794
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,lc_per_vehkm,0.24180599732409602,0.016734954591820193,-0.021598271882889472,0.05506818106652986,5,6.920818663314663
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,trapped_veh_count,364.0,-11.2,-31.891502551233447,9.491502551233449,5,-3.076923076923077
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,lc_share_near_AS,0.17450398366442837,0.003929465599897824,-0.015818990330583885,0.02367792153037953,5,2.2517913444624833
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,AS effect: variant - reference,n_vehicles,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,node_delay_all,3.437256998064168,0.5495881514677385,-0.45825926102283354,1.5574355639583106,5,15.989149248289017
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,node_stops_all,0.11233265341746032,0.024708584173710756,-0.01783948807879154,0.06725665642621305,5,21.99590539527859
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,link_speed_all,-0.9291147069434438,0.16752003166282564,-0.0790166825485718,0.4140567458742231,5,-18.03006995916843
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,lc_per_vehkm,0.2301189739503117,0.010161803519314682,-0.05358686764256079,0.07391047468119016,5,4.4158911996143635
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,trapped_veh_count,612.2,-18.8,-106.34127454111494,68.74127454111495,5,-3.0708918654034627
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,lc_share_near_AS,0.19854145790685984,-0.0033610667762055124,-0.01974406754235209,0.013021933989941066,5,-1.6928790649770804
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,AS effect: variant - reference,n_vehicles,-1.6,0.0,-4.389945165425423,4.389945165425423,5,-0.0
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,node_delay_all,22.47199514057261,-0.07827100497370196,-0.33242848458308527,0.17588647463568138,5,-0.3483046542333291
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,node_stops_all,0.6517120891205413,-0.004919165375360968,-0.01320528749583989,0.0033669567451179543,5,-0.7548065253782815
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,link_speed_all,31.846701585708253,-0.03800590487916722,-0.14680946130792266,0.07079765154958824,5,-0.11934016079148056
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,lc_per_vehkm,0.7262739295716845,0.02485840390197245,0.015097675279285808,0.03461913252465909,5,3.42273113350393
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,trapped_veh_count,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,lc_share_near_AS,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.4,SC-2,baseline shift 0/20: variant - reference,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,node_delay_all,31.2989879014159,-0.11105382415875838,-0.4001955454387633,0.17808789712124656,5,-0.35481602315241173
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,node_stops_all,0.8355895049919078,-0.007852355276110834,-0.015326797401176423,-0.0003779131510452446,5,-0.9397383798144856
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,link_speed_all,30.81599384384551,-0.01778232322951965,-0.08593327749059432,0.050368631031555026,5,-0.05770485066822237
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,lc_per_vehkm,0.7850454888876459,0.026770154571431615,-0.013333838923321711,0.06687414806618494,5,3.410013171257507
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,trapped_veh_count,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,lc_share_near_AS,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.4,SC-5,baseline shift 0/20: variant - reference,n_vehicles,1988.6,0.4,-0.7105780420791196,1.5105780420791195,5,0.02011465352509303
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,node_delay_all,23.937036992371908,0.2744713393371683,-0.611762106536622,1.1607047852109584,5,1.1466387398934752
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,node_stops_all,0.7073300244406223,0.009063766217424597,-0.018587976626100344,0.03671550906094954,5,1.281405553877413
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,link_speed_all,30.856161507399484,-0.035220337493567656,-0.25446085667534013,0.1840201816882048,5,-0.1141436127274665
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,lc_per_vehkm,0.9680799268957806,0.04159335849379264,-0.0014478097625388875,0.08463452675012417,5,4.296479798642743
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,node_delay_shuttle,29.094883246305574,-0.45772921638898084,-2.131131574058393,1.2156731412804316,5,-1.573229259983721
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,as_travel_time_mean_s,326.7614206712433,-19.004777581305042,-55.16299454099854,17.153439378388455,5,-5.816102017877401
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,trapped_veh_count,364.0,-11.2,-31.891502551233447,9.491502551233449,5,-3.076923076923077
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,lc_share_near_AS,0.17450398366442837,0.003929465599897824,-0.015818990330583885,0.02367792153037953,5,2.2517913444624833
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,gap_behind_AS_mean,37.04053196363062,-1.9113426479096283,-6.784133352044262,2.961448056225005,5,-5.160138223139826
+lanechange,lc_safdist_0.4,SC-2,shift 20/0: variant - reference,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,node_delay_all,34.73624489948007,0.43853432730898023,-0.8092038701801317,1.6862725247980923,5,1.262469010619925
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,node_stops_all,0.9479221584093679,0.016856228897599922,-0.026214182896942915,0.05992664069214276,5,1.7782292299069165
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,link_speed_all,29.886879136902074,0.14973770843330597,-0.09336438608708211,0.39283980295369403,5,0.5010148692588685
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,lc_per_vehkm,1.0151644628379575,0.0369319580907463,-0.009041340068079287,0.08290525624957189,5,3.6380270825774024
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,node_delay_shuttle,35.114388073247774,1.4174199989485097,-4.1532229713172,6.988062969214219,5,4.036578954449685
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,as_travel_time_mean_s,391.28776942355887,-22.04703349282296,-96.73736788468081,52.643300899034884,5,-5.634480608811878
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,trapped_veh_count,612.2,-18.8,-106.34127454111494,68.74127454111495,5,-3.0708918654034627
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,lc_share_near_AS,0.19854145790685984,-0.0033610667762055124,-0.01974406754235209,0.013021933989941066,5,-1.6928790649770804
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,gap_behind_AS_mean,24.043444906199756,-0.4614301294483646,-5.458660587240258,4.535800328343528,5,-1.9191514828616836
+lanechange,lc_safdist_0.4,SC-5,shift 20/0: variant - reference,n_vehicles,1987.0,0.4,-2.9547913849266627,3.7547913849266625,5,0.020130850528434826
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,node_delay_all,22.4873861657499,1.524320309675892,0.6545682357823249,2.394072383569459,5,6.77855709169772
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,node_stops_all,0.6526663499996792,0.05570897880011316,0.02119366646791164,0.09022429113231469,5,8.53559844170617
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,link_speed_all,31.849166860601162,-0.800984055272604,-1.2773942828151357,-0.3245738277300722,5,-2.51492938191566
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,lc_per_vehkm,0.7170028600854128,0.2239780415275027,0.1526681834818492,0.29528789957315615,5,31.23809596809995
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,trapped_veh_count,0.0,353.4,231.03276879947973,475.7672312005202,5,
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.1724479661790745,0.1086309624555999,0.23626496990254914,5,
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,AS effect 20/0 - 0/20,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,node_delay_all,31.446629322143384,3.311494903269326,1.1697311462213729,5.45325866031728,5,10.53052417588524
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,node_stops_all,0.8373235641995528,0.1157519902346407,0.047509285174411706,0.18399469529486967,5,13.824045468646863
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,link_speed_all,30.780553107290718,-0.73242929137284,-1.0901981792711788,-0.374660403474501,5,-2.3795195908918085
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,lc_per_vehkm,0.7691656179020729,0.23451459937311986,0.1509726451397253,0.3180565536065144,5,30.489480277702338
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,trapped_veh_count,0.0,572.8,405.2802446826364,740.3197553173635,5,
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,lc_share_near_AS,0.0,0.19258994812120775,0.13578948430425736,0.24939041193815814,5,
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,AS effect 20/0 - 0/20,n_vehicles,1988.6,-1.2,-3.5883883880999843,1.1883883880999846,5,-0.06034396057527909
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,node_delay_all,1.4650418517992947,0.059278457876597204,-0.3227553294033486,0.441312245156543,5,4.046195527028407
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,node_stops_all,0.05561793532008099,9.104348003217134e-05,-0.011966299119312527,0.012148386079376869,5,0.16369446206195262
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,link_speed_all,-0.9905400783087636,0.18955602303615962,-0.07551213592782832,0.45462418200014754,5,-19.136633356603333
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,lc_per_vehkm,0.24180599732409602,-0.017827955796593332,-0.05910991594639899,0.023454004353212328,5,-7.372834418452521
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,trapped_veh_count,364.0,-10.6,-43.199296520343744,21.99929652034374,5,-2.912087912087912
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,lc_share_near_AS,0.17450398366442837,-0.002056017485353856,-0.01424699802041427,0.010134963049706557,5,-1.1782066186566738
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,AS effect: variant - reference,n_vehicles,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,node_delay_all,3.437256998064168,-0.12576209479484177,-2.081722455162273,1.8301982655725892,5,-3.658792312174209
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,node_stops_all,0.11233265341746032,0.0034193368171803627,-0.057977098702004196,0.06481577233636492,5,3.0439384392293554
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,link_speed_all,-0.9291147069434438,0.1966854155706038,-0.02753438736707048,0.42090521850827806,5,-21.169120895486618
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,lc_per_vehkm,0.2301189739503117,0.00439562542280818,-0.017029970624403472,0.025821221470019834,5,1.910153407757373
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,trapped_veh_count,612.2,-39.4,-96.58802982559143,17.788029825591437,5,-6.435805292388108
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,lc_share_near_AS,0.19854145790685984,-0.005951509785652076,-0.020382236926928414,0.00847921735562426,5,-2.997615635744984
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,AS effect: variant - reference,n_vehicles,-1.6,0.4,-0.7105780420791193,1.5105780420791195,5,-25.0
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,node_delay_all,22.47199514057261,0.015391025177287077,-0.053761200194783046,0.0845432505493572,5,0.06848980289026041
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,node_stops_all,0.6517120891205413,0.0009542608791377694,-0.0029172247006485543,0.004825746458924093,5,0.14642368847653342
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,link_speed_all,31.846701585708253,0.002465274892909974,-0.06596339671150979,0.07089394649732973,5,0.0077410682116489824
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,lc_per_vehkm,0.7262739295716845,-0.009271069486271521,-0.022109786026117812,0.00356764705357477,5,-1.2765251661641053
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,trapped_veh_count,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,lc_share_near_AS,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.8,SC-2,baseline shift 0/20: variant - reference,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,node_delay_all,31.2989879014159,0.1476414207274864,-0.020239175270541865,0.31552201672551466,5,0.4717130828399963
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,node_stops_all,0.8355895049919078,0.0017340592076450223,-0.012649156368644058,0.016117274783934103,5,0.2075252498129229
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,link_speed_all,30.81599384384551,-0.03544073655479778,-0.21717148376094542,0.1462900106513499,5,-0.11500760525325684
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,lc_per_vehkm,0.7850454888876459,-0.015879870985572975,-0.023031986072558585,-0.008727755898587364,5,-2.0227962851010877
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,node_delay_shuttle,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,as_travel_time_mean_s,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,trapped_veh_count,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,lc_share_near_AS,0.0,0.0,0.0,0.0,5,
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,gap_behind_AS_mean,,,,,0,
+lanechange,lc_safdist_0.8,SC-5,baseline shift 0/20: variant - reference,n_vehicles,1988.6,0.0,0.0,0.0,5,0.0
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,node_delay_all,23.937036992371908,0.07466948305388428,-0.2999662809356596,0.4493052470434281,5,0.3119412109263124
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,node_stops_all,0.7073300244406223,0.0010453043591699407,-0.007641469306383463,0.009732078024723345,5,0.147781703455413
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,link_speed_all,30.856161507399484,0.19202129792906958,-0.04180221101954282,0.425844806877682,5,0.6223110346470729
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,lc_per_vehkm,0.9680799268957806,-0.027099025282864852,-0.06145503220505383,0.007256981639324121,5,-2.799254950958426
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,node_delay_shuttle,29.094883246305574,-1.6481087426233665,-4.054754778223284,0.7585372929765515,5,-5.664599952751627
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,as_travel_time_mean_s,326.7614206712433,-11.153821510297472,-58.523485314727765,36.21584229413281,5,-3.4134450411511104
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,trapped_veh_count,364.0,-10.6,-43.199296520343744,21.99929652034374,5,-2.912087912087912
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,lc_share_near_AS,0.17450398366442837,-0.002056017485353856,-0.01424699802041427,0.010134963049706557,5,-1.1782066186566738
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,gap_behind_AS_mean,37.04053196363062,0.6904003243842439,-2.4135498550850363,3.794350503853524,5,1.8639049921370854
+lanechange,lc_safdist_0.8,SC-2,shift 20/0: variant - reference,n_vehicles,1313.8,0.0,0.0,0.0,5,0.0
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,node_delay_all,34.73624489948007,0.021879325932644633,-2.0827168499659092,2.1264755018311985,5,0.06298702118193587
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,node_stops_all,0.9479221584093679,0.005153396024825385,-0.06165791585599016,0.07196470790564093,5,0.5436518156166837
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,link_speed_all,29.886879136902074,0.16124467901580603,-0.006210142263292112,0.32869950029490413,5,0.5395166162288025
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,lc_per_vehkm,1.0151644628379575,-0.011484245562764794,-0.027263488147085693,0.004294997021556106,5,-1.131269462551895
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,node_delay_shuttle,35.114388073247774,-1.6454639496481065,-6.210311391544273,2.919383492248061,5,-4.686010606864936
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,as_travel_time_mean_s,391.28776942355887,-31.558317764107244,-90.01358261005743,26.896947081842946,5,-8.065245129076903
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,trapped_veh_count,612.2,-39.4,-96.58802982559143,17.788029825591437,5,-6.435805292388108
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,lc_share_near_AS,0.19854145790685984,-0.005951509785652076,-0.020382236926928414,0.00847921735562426,5,-2.997615635744984
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,gap_behind_AS_mean,24.043444906199756,-0.009123648016187503,-2.3766070666316352,2.35835977059926,5,-0.03794650912871022
+lanechange,lc_safdist_0.8,SC-5,shift 20/0: variant - reference,n_vehicles,1987.0,0.4,-0.7105780420791193,1.5105780420791195,5,0.020130850528434826

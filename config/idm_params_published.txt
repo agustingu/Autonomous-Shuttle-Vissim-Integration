@@ -1,0 +1,11 @@
+# IDM parameters of the autonomous shuttle, SI units.
+# Calibrated and validated on field trajectories of a NAVYA shuttle (Lake Nona, FL):
+# Favero & Elefteriadou (2025), IEEE Trans. ITS 26(5), Table IV, converted from
+# ft to m (2.76 ft/s2, 20.00 ft/s, 9.89 ft, 2.79 s, 24.58 ft/s2).
+a=0.841
+b=7.492
+v0=6.096
+s0=3.014
+T=2.79
+# operational speed cap of the deployment, m/s (12 mph). Independent of v0.
+cap=5.364474

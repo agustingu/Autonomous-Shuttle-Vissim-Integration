@@ -1,0 +1,25 @@
+\begin{table*}[htbp]
+  \centering
+  \caption{Sensitivity of the network results to the AS car-following parameters (20/0 fleet, SC-2 and SC-5, five seeds).}
+  \resizebox{\textwidth}{!}{
+    \begin{tabular}{lccccccc}
+    \toprule
+    Variant & \multicolumn{2}{c}{Delay (s/veh)} & Stops & Speed & LC & Shuttle delay & Trapped \\
+            & SC-2 & SC-5 & SC-5 (/veh) & SC-5 (km/h) & SC-5 (/veh-km) & SC-5 (s/veh) & SC-5 (veh/h) \\
+    \midrule
+    Calibrated (Table~\ref{tab:idm_calib}), values & 23.94 & 34.74 & 0.948 & 29.89 & 1.015 & 35.11 & 612 \\
+    \midrule
+    $a \times 0.75$ & +0.46 [-0.44, 1.35] & +0.78 [-1.13, 2.69] & +0.021 [-0.025, 0.067] & +0.12 [-0.31, 0.55] & +0.034 [-0.016, 0.083] & +2.40 [-2.30, 7.11] & +11 [-117, 140] \\
+    $a \times 1.25$ & -0.01 [-0.43, 0.40] & +0.30 [-1.12, 1.73] & +0.022 [-0.030, 0.074] & +0.03 [-0.23, 0.28] & -0.006 [-0.077, 0.065] & -1.20 [-4.37, 1.98] & +8 [-84, 100] \\
+    $T_0 \times 0.75$ & +0.14 [-0.21, 0.50] & -0.00 [-0.97, 0.96] & +0.005 [-0.025, 0.035] & +0.21 [-0.16, 0.58] & -0.012 [-0.047, 0.023] & -1.53 [-4.55, 1.49] & -49 [-89, -10] \\
+    $T_0 \times 1.25$ & -0.00 [-0.35, 0.34] & +0.52 [-1.14, 2.18] & +0.021 [-0.022, 0.064] & +0.06 [-0.34, 0.45] & -0.012 [-0.044, 0.020] & +0.98 [-1.44, 3.40] & -25 [-116, 66] \\
+    $S_0 \times 0.75$ & -0.11 [-0.55, 0.34] & +0.37 [-0.71, 1.45] & +0.005 [-0.026, 0.036] & +0.11 [-0.13, 0.35] & -0.017 [-0.047, 0.013] & -1.45 [-4.14, 1.24] & -23 [-84, 39] \\
+    $S_0 \times 1.25$ & +0.29 [-0.59, 1.16] & -0.55 [-1.39, 0.30] & -0.013 [-0.035, 0.009] & +0.09 [-0.22, 0.40] & -0.016 [-0.049, 0.016] & -0.80 [-2.08, 0.49] & -21 [-96, 54] \\
+    $b \times 0.75$ & +0.13 [-0.11, 0.37] & +0.11 [-1.13, 1.35] & +0.009 [-0.029, 0.047] & +0.11 [-0.28, 0.51] & +0.001 [-0.035, 0.038] & -1.63 [-4.49, 1.22] & -10 [-44, 25] \\
+    $b \times 1.25$ & -0.02 [-0.32, 0.27] & -0.02 [-1.10, 1.07] & +0.007 [-0.030, 0.043] & +0.13 [-0.03, 0.29] & +0.010 [-0.027, 0.048] & -0.37 [-3.25, 2.50] & -2 [-51, 48] \\
+    Low-acceleration set$^{\mathrm{a}}$ & +0.91 [-0.21, 2.03] & +3.89 [1.43, 6.36] & +0.089 [0.026, 0.153] & +0.05 [-0.30, 0.39] & +0.024 [-0.007, 0.055] & +12.07 [5.56, 18.57] & +14 [-64, 92] \\
+    \bottomrule
+    \end{tabular}}
+  \par\vspace{3pt}\parbox{\textwidth}{\footnotesize Entries: seed-paired difference from the calibrated case, mean [95\% CI] over five seeds; first row: calibrated-case values. Network measures: all vehicles. Shuttle delay: intersection delay of the shuttles; trapped: vehicles trapped behind a shuttle per hour. $^{\mathrm{a}}$ Low-acceleration, short-gap set: $a = 0.38$ m/s$^2$, $b = 4.80$ m/s$^2$, $V_0 = 5.49$ m/s, $S_0 = 1.16$ m, $T_0 = 0.70$ s.}
+  \label{tab:sens_idm}
+\end{table*}

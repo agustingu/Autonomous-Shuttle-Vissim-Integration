@@ -1,0 +1,31 @@
+# simulation inputs and outputs (never commit a network or raw runs)
+/network/
+*.inpx
+*.layx
+*.results/
+/batch_results*/
+/sensitivity_results*/
+/visual_results/
+/tables/
+/figures/
+*.fzp
+*.err
+*.mer
+*.rsr
+*.att
+*.db
+*.log
+
+# python / editors
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# legacy DLL build artifacts
+legacy_edm_dll/Bin/
+legacy_edm_dll/Lib/
+legacy_edm_dll/Temp/
+legacy_edm_dll/Release/
+legacy_edm_dll/x64/
+legacy_edm_dll/*.user
